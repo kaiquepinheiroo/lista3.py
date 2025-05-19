@@ -85,7 +85,6 @@ def q7():
         print(resultado)
         print(f'media da turma: {round(media_geral/3,1)} )
 
-q07 ()
 #8. Faça um programa que permita entrar com o nome e o salário bruto de 10 pessoas.
 #Após ler os dados, imprimir o nome e o valor da alíquota do imposto de renda
 #calculado conforme a tabela a seguir:
