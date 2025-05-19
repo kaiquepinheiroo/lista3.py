@@ -51,12 +51,14 @@ def q4():
 #5. Sabendo-se que a unidade lógica e aritmética calcula o produto através de somas
 #sucessivas, crie um programa que calcule o produto de dois números inteiros
 #lidos. Suponha que os números lidos sejam positivos.
-def q5 ():
-    erro = true 
-    num1=0
-    num2=0
+def q5():
+    n1 = int(input('Valor 1: '))
+    n2 = int(input('Valor 2: '))
+    resultado = 0
+    for _ in range(n1):
+        resultado+=n2
+    print(resultado)
     
-
 #6. Crie um programa que imprima os 20 primeiros termos da série de Fibonacci.
 #Observação: os dois primeiros termos desta série são 1 e 1 e os demais são gerados
 #a partir da soma dos anteriores. Exemplo:
@@ -64,11 +66,26 @@ def q5 ():
 #• 1 + 2 = 3, quarto termo, etc.
 # 1 1 2 3 5 8 13 21
 
+
 #7. Crie um programa que permita entrar com o nome, a nota da
 #prova 1 e da prova 2 de 15 alunos. Ao final, imprimir uma listagem, contendo:
 #nome, nota da prova 1, nota da prova 2, e média das notas de cada aluno. Ao final,
 #imprimir a média geral da turma.
+def q7():
+    resultado = ''
+    media_geral = 0 
+    for _ on range(3):
+        nome = imput('nome: ')
+        n1 = float(input('nota1:'))
+        N2 = float(input('nota2: '))
+        media = round((n1+n2/2,1))
+        media_geral += media 
+        resultado += f' {nome}\t{n1}'\t{n2}\t{media}\n'
+        print('nome\tN1\tN2\tMEDIA')
+        print(resultado)
+        print(f'media da turma: {round(media_geral/3,1)} )
 
+q07 ()
 #8. Faça um programa que permita entrar com o nome e o salário bruto de 10 pessoas.
 #Após ler os dados, imprimir o nome e o valor da alíquota do imposto de renda
 #calculado conforme a tabela a seguir:
