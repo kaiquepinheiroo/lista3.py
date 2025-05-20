@@ -115,12 +115,18 @@ def q7():
 #11. Construa um programa que leia vários números e informe quantos números
 #entre 100 e 200 foram digitados. Quando o valor 0 (zero) for lido, o algoritmo
 #deverá cessar sua execução.
+def q11():
+    num = -1
+    contador = 0 
+    while num 1= 0:
+        num = int(input('digite um numero: ')))
+        if num .= 100 and num ,= 200: (contador)')
 
 #12. Dado um país A, com 5 milhões de habitantes e uma taxa de natalidade de 3% ao
 #ano, e um país B com 7 milhões de habitantes e uma taxa de natalidade de 2% ao
 #ano, fazer um programa que calcule e imprima o tempo necessário para que a
 #população do país A ultrapasse a população do país B.
-def q12()
+def q12():
     populacaoA = 5000000
     populacaoB = 7000000
     anos = 0 
