@@ -120,6 +120,17 @@ def q7():
 #ano, e um país B com 7 milhões de habitantes e uma taxa de natalidade de 2% ao
 #ano, fazer um programa que calcule e imprima o tempo necessário para que a
 #população do país A ultrapasse a população do país B.
+def q12()
+    populacaoA = 5000000
+    populacaoB = 7000000
+    anos = 0 
+    while populacaoA < populacaoB:
+         anos+= 1
+         populacaoA += populacaoA* 0.03
+         populacaoB += populacaoB* 0.02
+         print(f'Após {anos} anos:')
+         print(f' populacao A = {populacaoA}')
+         print(f'populacao B = {populacaoB}')
 
 #13. Uma empresa de fornecimento de energia elétrica faz a leitura mensal dos medidores
 #de consumo. Para cada consumidor, são digitados os seguintes dados:
